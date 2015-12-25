@@ -26,7 +26,6 @@ if(isset($_POST['message'])){
 		$res['message'] = 'Failed to send mail. Please mail me to nt92@ufl.edu';
 	}
 	
-	
 	echo json_encode($res);
 }
 
