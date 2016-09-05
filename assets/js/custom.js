@@ -140,6 +140,7 @@
 			var c_email = $('#c_email').val();
 			var c_message = $('#c_message ').val();
 			var response = $('#contact-form .ajax-response');
+			$('#response-text').html("Thank you!");
 
 			var formData = {
 				'name'       : c_name,
